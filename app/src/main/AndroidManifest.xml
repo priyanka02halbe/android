@@ -13,7 +13,6 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -40,8 +39,11 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
+    <!--    <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCBy7rdL6HJ2uApAnI2oXz&#45;&#45;GxdWIqHhRk" />-->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCBy7rdL6HJ2uApAnI2oXz--GxdWIqHhRk" />
 
 
