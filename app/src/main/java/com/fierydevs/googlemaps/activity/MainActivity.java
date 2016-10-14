@@ -162,6 +162,12 @@ public class MainActivity extends AppCompatActivity
             LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
         }
     }
+	
+	 @Override
+    public void onResume() {
+        super.onResume();
+        buildGoogleApiClient();
+    }
 
     @Override
     public void onMapReady(GoogleMap googleMap)
